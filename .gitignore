@@ -1,0 +1,8 @@
+pkg/
+metadata.json
+*.idea
+*.swp
+*.tmp
+coverage/
+spec/fixtures/manifests/
+spec/fixtures/modules/
