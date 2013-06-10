@@ -19,6 +19,9 @@
 class apg (
   $version = 'latest'
 ) {
+
+  validate_re($version, 'present|installed|latest|^[._0-9a-zA-Z:-]+$')
+
   package { 'apg':
       ensure => $version
   }
